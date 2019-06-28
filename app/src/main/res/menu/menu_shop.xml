@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/ddfe"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="分享"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item android:title="LinearLayoutManager.VERTICAL"
+                android:id="@+id/one"
+                />
+            <item  android:title="LinearLayoutManager.HORIZONTAL"
+                android:id="@+id/two"
+                />
+            <item  android:title="StaggeredGridLayoutManager.VERTICAL"
+            android:id="@+id/three"
+            />
+            <item  android:title="GridLayoutManager"
+                android:id="@+id/foure"
+                />
+        </menu>
+    </item>
+</menu>

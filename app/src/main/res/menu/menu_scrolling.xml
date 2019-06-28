@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="添加"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@android:drawable/ic_media_ff"
+        android:title="播放"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settingdd"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="麦克风"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settinddgdd"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="暂停"
+        app:showAsAction="never" />
+</menu>
